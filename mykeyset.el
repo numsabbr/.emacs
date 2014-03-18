@@ -21,7 +21,7 @@
 ;; (global-set-key "\C-q \C-c"  'compile) 
 ;; (global-set-key "\C-q \C-d"  'gdb) 
 ;; (global-set-key "\C-q \C-r"  'replace-string) 
-
+;;horororo dddd
 (global-set-key (kbd "C-q C-c") 'compile)
 (global-set-key (kbd "C-q C-d") 'gdb)
 (global-set-key (kbd "C-q C-r") 'replace-string)
