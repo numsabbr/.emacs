@@ -1,0 +1,23 @@
+#default makefile
+#it compiles all source code in same directory
+CPP        = gcc
+CPPFLAGS   = -Wall -pedantic -O2 -g -c
+#appoint name of executable program
+PROGRAM = salesman
+SOURCES    := ${wildcard *.c}
+OBJECTS    := ${SOURCES:.c=.o}
+
+.PHONY:    all #clean
+
+.SUFFIXES: .c .o
+
+all:       main
+
+main:      $(OBJECTS)
+	 $(CC)  -o  $(PROGRAM) $^ -lm
+
+.o.c:
+	$(CPP) $(CPPFLAGS) $< -o $@
+
+clean:
+	-rm -fv *.o

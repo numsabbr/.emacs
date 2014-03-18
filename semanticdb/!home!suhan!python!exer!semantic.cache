@@ -1,0 +1,354 @@
+;; Object exer/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "exer/"
+  :tables (list 
+   (semanticdb-table "ex5_1.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("is_triangle" function (:arguments 
+              ( ("a" variable nil (reparse-symbol function_parameters) [17 18])
+                ("b" variable nil (reparse-symbol function_parameters) [19 20])
+                ("c" variable nil (reparse-symbol function_parameters) [21 22]))              ) nil [1 103])
+            ("user_triangle" function nil nil [103 240])
+            ("user_triangle" code nil nil [240 255]))          
+    :file "ex5_1.py"
+    :pointmax 262
+    :fsize 297
+    :lastmodtime '(21279 57021 951502 917000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "split.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("str" variable nil nil [20 65])
+            ("print" code nil nil [67 85])
+            ("print" code nil nil [87 111])
+            ("print" code nil nil [113 137])
+            ("print" code nil nil [139 163]))          
+    :file "split.py"
+    :pointmax 139
+    :fsize 164
+    :lastmodtime '(21279 57118 875504 328000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ch4_3.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("swampy.TurtleWorld" include nil nil [1 33])
+            ("math" include nil nil [35 46])
+            ("koch" function (:arguments 
+              ( ("t" variable nil (reparse-symbol function_parameters) [57 58])
+                ("length" variable nil (reparse-symbol function_parameters) [59 65])
+                ("n" variable nil (reparse-symbol function_parameters) [66 67])
+                ("angle" variable nil (reparse-symbol function_parameters) [68 73]))              ) nil [48 590])
+            ("world" variable nil nil [590 609])
+            ("bob" variable nil nil [611 623])
+            ("bob" variable nil nil [625 639])
+            ("leng" variable nil nil [640 690])
+            ("n" variable nil nil [691 739]))          
+    :file "ch4_3.py"
+    :pointmax 787
+    :fsize 515
+    :lastmodtime '(21278 41533 9361 595000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ex5_6.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("swampy.TurtleWorld" include nil nil [1 33])
+            ("math" include nil nil [35 46])
+            ("koch" function (:arguments 
+              ( ("t" variable nil (reparse-symbol function_parameters) [57 58])
+                ("length" variable nil (reparse-symbol function_parameters) [59 65])
+                ("n" variable nil (reparse-symbol function_parameters) [66 67])
+                ("angle" variable nil (reparse-symbol function_parameters) [68 73]))              ) nil [48 590])
+            ("world" variable nil nil [590 609])
+            ("bob" variable nil nil [611 623])
+            ("bob" variable nil nil [625 639])
+            ("leng" variable nil nil [640 690])
+            ("n" variable nil nil [691 739])
+            ("if" code nil nil [740 781]))          
+    :file "ex5_6.py"
+    :pointmax 796
+    :fsize 795
+    :lastmodtime '(21280 3689 215680 473000)
+    :unmatched-syntax '((SEMICOLON 609 . 610))
+    )
+   (semanticdb-table "ex7_1.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("math" include nil nil [1 12])
+            ("myroot" function (:arguments 
+              ( ("a" variable nil (reparse-symbol function_parameters) [25 26]))              ) nil [14 170])
+            ("test_square_root" function nil nil [199 332])
+            ("test_square_root" code nil nil [399 417]))          
+    :file "ex7_1.py"
+    :pointmax 363
+    :fsize 427
+    :lastmodtime '(21282 34805 835213 58000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ex7_4.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("eval_loop" function nil nil [1 202])
+            ("eval_loop" code nil nil [202 213]))          
+    :file "ex7_4.py"
+    :pointmax 186
+    :fsize 214
+    :lastmodtime '(21282 32720 79182 710000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ex7_5.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "ex7_5.py"
+    :pointmax 1
+    :fsize 640
+    :lastmodtime '(21282 35471 499222 743000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ex8_11.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("is_palindrome" function (:arguments 
+              ( ("ss" variable nil (reparse-symbol function_parameters) [19 21]))              ) nil [1 98]))          
+    :file "ex8_11.py"
+    :pointmax 98
+    :fsize 97
+    :lastmodtime '(21286 23810 434278 669000)
+    :unmatched-syntax '((DEF 98 . 101) ($EOI 115 . 115) (DEF 98 . 101) ($EOI 101 . 101))
+    )
+   (semanticdb-table "ex8_12.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("ROT" function (:arguments 
+              ( ("a" variable nil (reparse-symbol function_parameters) [31 32])
+                ("n" variable nil (reparse-symbol function_parameters) [33 34]))              ) nil [23 460]))          
+    :file "ex8_12.py"
+    :pointmax 460
+    :fsize 459
+    :lastmodtime '(21286 23425 630287 852000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ex9_7.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"
+suhan lee,saitama university.
+\"\"\"" code nil nil [18 55])
+            ("conseq" function (:arguments 
+              ( ("word" variable nil (reparse-symbol function_parameters) [67 71]))              ) nil [56 266])
+            ("if" code nil nil [269 357]))          
+    :file "ex9_7.py"
+    :pointmax 366
+    :fsize 356
+    :lastmodtime '(21286 33364 678050 679000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ex9_8.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"
+suhan lee,saitama university.
+\"\"\"" code nil nil [18 55])
+            ("rev_num" function (:arguments 
+              ( ("mile" variable nil (reparse-symbol function_parameters) [68 72])
+                ("start" variable nil (reparse-symbol function_parameters) [73 78])
+                ("end" variable nil (reparse-symbol function_parameters) [79 82]))              ) nil [56 301])
+            ("miletest" function (:arguments 
+              ( ("mile" variable nil (reparse-symbol function_parameters) [315 319]))              ) nil [302 643])
+            ("if" code nil nil [645 778]))          
+    :file "ex9_8.py"
+    :pointmax 606
+    :fsize 862
+    :lastmodtime '(21286 37593 125949 777000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ex10_8.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"
+suhan lee,saitama university.
+\"\"\"" code nil nil [18 55])
+            ("has_duplicates" function (:arguments 
+              ( ("lists" variable nil (reparse-symbol function_parameters) [76 81]))              ) nil [57 256]))          
+    :file "ex10_8.py"
+    :pointmax 348
+    :fsize 350
+    :lastmodtime '(21286 47723 645708 35000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ex10_10.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"
+suhan lee,saitama university.
+\"\"\"" code nil nil [18 55])
+            ("make_word_list" function (:documentation "Reads lines from a file and builds a list using append.") nil [58 294]))          
+    :file "ex10_10.py"
+    :pointmax 321
+    :fsize 320
+    :lastmodtime '(21286 45624 117758 135000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ch11_1.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"
+suhan lee,saitama university.
+\"\"\"" code nil nil [18 55])
+            ("histogram" function (:arguments 
+              ( ("s" variable nil (reparse-symbol function_parameters) [70 71]))              ) nil [56 193])
+            ("print_hist" function (:arguments 
+              ( ("s" variable nil (reparse-symbol function_parameters) [209 210]))              ) nil [194 319])
+            ("print_hist_ori" function (:arguments 
+              ( ("s" variable nil (reparse-symbol function_parameters) [338 339]))              ) nil [319 379])
+            ("invertdict" function (:arguments 
+              ( ("s" variable nil (reparse-symbol function_parameters) [394 395]))              ) nil [379 562])
+            ("if" code nil nil [563 703]))          
+    :file "ch11_1.py"
+    :pointmax 619
+    :fsize 713
+    :lastmodtime '(21287 39999 728786 220000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "invert_dict.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("invert_dict" function
+               (:documentation "Inverts a dictionary, returning a map from val to a list of keys.
+
+    If the mapping key->val appears in d, then in the new dictionary
+    val maps to a list that includes key.
+
+    d: dict
+
+    Returns: dict
+    "
+                :arguments 
+                  ( ("d" variable nil (reparse-symbol function_parameters) [18 19]))                  )
+                nil [2 366])
+            ("if" code nil nil [368 624]))          
+    :file "invert_dict.py"
+    :pointmax 624
+    :fsize 623
+    :lastmodtime '(21287 40613 88808 985000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ch11_5.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"
+suhan lee,saitama university.
+\"\"\"" code nil nil [18 55])
+            ("math" include nil nil [56 67])
+            ("prime_list" variable nil nil [69 83])
+            ("prime_max" variable nil nil [84 95])
+            ("make_prime" function
+               (:documentation "extend the prime list from prime_max to in"
+                :arguments 
+                  ( ("ins" variable nil (reparse-symbol function_parameters) [111 114]))                  )
+                nil [96 314])
+            ("_prime_test" function
+               (:documentation "
+    return True if in is prime number
+    "
+                :arguments 
+                  ( ("ins" variable nil (reparse-symbol function_parameters) [343 346]))                  )
+                nil [327 492])
+            ("factorize" function (:arguments 
+              ( ("ins" variable nil (reparse-symbol function_parameters) [507 510]))              ) nil [493 729])
+            ("if" code nil nil [729 799]))          
+    :file "ch11_5.py"
+    :pointmax 818
+    :fsize 171
+    :lastmodtime '(21287 42594 928882 540000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "fibonacci.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"
+suhan lee,saitama university.
+\"\"\"" code nil nil [18 55])
+            ("known" variable nil nil [56 71])
+            ("fibonacci" function (:arguments 
+              ( ("n" variable nil (reparse-symbol function_parameters) [87 88]))              ) nil [73 204]))          
+    :file "fibonacci.py"
+    :pointmax 230
+    :fsize 232
+    :lastmodtime '(21287 47893 709079 204000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ackermann.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"
+suhan lee,saitama university.
+\"\"\"" code nil nil [18 55])
+            ("Alist" variable nil nil [56 64])
+            ("dist" variable nil nil [66 78])
+            ("num" variable nil nil [80 85])
+            ("reset" function nil nil [87 158])
+            ("A" function (:arguments 
+              ( ("m" variable nil (reparse-symbol function_parameters) [164 165])
+                ("n" variable nil (reparse-symbol function_parameters) [166 167]))              ) nil [158 698])
+            ("cache" variable nil nil [700 710])
+            ("ackermann" function
+               (:documentation "Computes the Ackermann function A(m, n)
+
+    See http://en.wikipedia.org/wiki/Ackermann_function
+
+    n, m: non-negative integers
+    "
+                :arguments 
+                  ( ("m" variable nil (reparse-symbol function_parameters) [726 727])
+                    ("n" variable nil (reparse-symbol function_parameters) [729 730]))                  )
+                nil [712 1144])
+            ("Aold" function (:arguments 
+              ( ("m" variable nil (reparse-symbol function_parameters) [1155 1156])
+                ("n" variable nil (reparse-symbol function_parameters) [1157 1158]))              ) nil [1146 1347]))          
+    :file "ackermann.py"
+    :pointmax 1331
+    :fsize 1375
+    :lastmodtime '(21287 57039 965418 665000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ch11_6.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"
+suhan lee,saitama university.
+\"\"\"" code nil nil [18 55])
+            ("verbosa" variable nil nil [56 67])
+            ("been_called" variable nil nil [69 88])
+            ("st" variable nil nil [90 110])
+            ("example1" function nil nil [111 190])
+            ("example2" function nil nil [192 276])
+            ("example1" code nil nil [276 286])
+            ("example2" code nil nil [288 298])
+            ("print" code nil nil [300 308]))          
+    :file "ch11_6.py"
+    :pointmax 317
+    :fsize 334
+    :lastmodtime '(21287 58141 249459 539000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ras.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"
+suhan lee,saitama university.
+\"\"\"" code nil nil [18 55]))          
+    :file "ras.py"
+    :pointmax 95
+    :fsize 94
+    :lastmodtime '(21288 6544 137976 878000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!suhan!python!exer!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

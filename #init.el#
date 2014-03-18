@@ -1,0 +1,145 @@
+
+;; or (load-file "/path/to/mozc.el")
+(load-file "~/.emacs.d/multilang.el")
+(load-file "~/.emacs.d/zenkakuspace.el")
+(load-file "~/.emacs.d/google-c-style.el")
+(load-file "~/.emacs.d/auto-complete.el")
+(add-hook 'c++-mode-hook
+          '(lambda ()
+             (auto-complete-mode t)))
+(add-hook 'java-mode-hook
+          '(lambda ()
+             (auto-complete-mode t)))
+
+
+(fset 'yes-or-no-p 'y-or-n-p)            ;; enable y/n answers to yes/no 
+
+(global-linum-mode t);;line number on the side
+
+(global-set-key "\C-z" 'undo)
+(global-set-key (kbd "C-x C-b") 'ibuffer) 
+(setq ansi-term-program "/bin/bash")
+;;(global-set-key "\C-t" '(ansi-term "/bin/bash" ) )
+(global-set-key [C-muhenkan] 'next-multiframe-window)
+(global-set-key [C-S-muhenkan] 'previous-multiframe-window)
+
+
+
+;;thanks to http://stackoverflow.com/questions/294664/how-to-set-the-font-size-in-emacs
+  (set-face-attribute 'default (selected-frame) :height 80)
+
+
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(cua-enable-cua-keys nil)
+ '(cua-mode t nil (cua-base))
+ '(custom-enabled-themes (quote (tango-dark)))
+ '(gdb-enable-debug t)
+ '(inhibit-startup-screen t))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+
+
+
+
+;; (load-file "./a")
+
+;;for the c++ programming: thanks to 
+(require 'flymake)
+
+(defun flymake-cc-init ()
+  (let* ((temp-file   (flymake-init-create-temp-buffer-copy
+                       'flymake-create-temp-inplace))
+         (local-file  (file-relative-name
+                       temp-file
+                       (file-name-directory buffer-file-name))))
+    (list "g++" (list "-Wall" "-Wextra" "-fsyntax-only" local-file))))
+
+(push '("\\.cpp$" flymake-cc-init) flymake-allowed-file-name-masks)
+
+(add-hook 'c++-mode-hook
+          '(lambda ()
+             (flymake-mode t)))
+
+
+;; function to reload .emacs 2008.01.24
+;; 출처 : http://hermian.tistory.com/195
+(defun reload-dotemacs ()  
+  "Reload .emacs"
+  (interactive)
+  (load-file "~/.emacs.d/init.el"))
+(global-set-key (kbd "C-<f5>") 'reload-dotemacs)
+
+
+
+
+;;automatic make-directory
+(defadvice find-file (before make-directory-maybe (filename &optional wildcards) activate)
+  "Create parent directory if not exists while visiting file."
+  (unless (file-exists-p filename)
+    (let ((dir (file-name-directory filename)))
+      (unless (file-exists-p dir)
+        (make-directory dir)))))
+
+
+
+;;(load-file "~/.emacs.d/autoinsert/autoinsert.el")
+(load "autoinsert")
+(add-hook 'find-file-hooks 'auto-insert)
+(setq auto-insert-directory "~/.emacs.d/autoinsert/")
+(setq auto-insert-alist
+      (append '(
+                ("\\.cpp" . "template.cpp")
+                ) auto-insert-alist))
+
+
+
+(defun make-termss ()
+  (interactive )  
+  (message "maketerm")
+  (split-window-horizontally) 
+  (enlarge-window-horizontally 30)
+  (next-multiframe-window)
+  (split-window-vertically)
+  (ansi-term "/bin/bash" )
+  (interactive)  
+  (next-multiframe-window)
+  (next-multiframe-window)
+  ;; (set-window-buffer (next-window) (other-buffer)        )
+   
+  )
+(global-set-key (kbd "C-x C-7") 'make-termss)
+(defun programming-contest-mode2 (asdf)    
+   (interactive "Ffind source file")
+   (message "procony")
+   (find-file asdf) 
+   (make-termss )
+   (previous-multiframe-window)
+     (let (( a (length asdf) ))
+     (setq a (- a 1))
+      (while (/= (aref asdf a)  ?.)
+        (setq a (- a 1))
+       )
+     (setq asdf (substring asdf 0 a))
+     )
+ (setq asdf (concat asdf ".in")) ;=> "abc-def"
+   (find-file asdf)   
+   (next-multiframe-window)
+)
+(global-set-key "\C-x7" 'programming-contest-mode2)
+
+;;yatex
+(load-file "~/.emacs.d/yatex.el")
+
+
+ (add-to-list 'auto-mode-alist '("\\.lex\\'" . c-mode))
+ (add-to-list 'auto-mode-alist '("\\.yacc\\'" . c-mode))
+;; (add-auto-mode 'c-mode "\\.lex")
+;; (add-auto-mode 'c-mode "\\.yacc")

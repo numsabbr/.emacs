@@ -1,0 +1,48 @@
+;; Object make_prime/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "make_prime/"
+  :tables (list 
+   (semanticdb-table "list.cpp"
+    :major-mode 'c++-mode
+    :tags nil
+    :file "list.cpp"
+    :pointmax 1898
+    :fsize 2020
+    :lastmodtime '(21287 44835 156965 686000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "make_prime.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"
+suhan lee,saitama university.
+\"\"\"" code nil nil [18 55])
+            ("math" include nil nil [56 67])
+            ("prime_list" variable nil nil [69 83])
+            ("prime_max" variable nil nil [84 95])
+            ("make_prime" function
+               (:documentation "extend the prime list from prime_max to in"
+                :arguments 
+                  ( ("ins" variable nil (reparse-symbol function_parameters) [111 114]))                  )
+                nil [96 314])
+            ("_prime_test" function
+               (:documentation "
+    return True if in is prime number
+    "
+                :arguments 
+                  ( ("ins" variable nil (reparse-symbol function_parameters) [343 346]))                  )
+                nil [327 540])
+            ("factorize" function (:arguments 
+              ( ("ins" variable nil (reparse-symbol function_parameters) [555 558]))              ) nil [541 780])
+            ("if" code nil nil [781 1101]))          
+    :file "make_prime.py"
+    :pointmax 1098
+    :fsize 1100
+    :lastmodtime '(21287 47458 185063 39000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!suhan!python!exer!make_prime!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

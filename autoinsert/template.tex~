@@ -1,0 +1,27 @@
+\documentclass[a4paper,12pt]{jarticle}
+\setlength{\textwidth}{170mm}       % テキストの幅
+\setlength{\textheight}{260mm}      % テキストの高さ
+\setlength{\oddsidemargin}{-5mm}    % 偶数ページの左マージン
+\setlength{\evensidemargin}{\oddsidemargin}    % 奇数ページの左マージン
+\setlength{\topmargin}{-25mm}       % 上のマージン
+
+\usepackage{graphicx}
+\usepackage{amssymb} % AMS のシンボル R, C を使うため \mathbb
+\usepackage{verbatim}
+\usepackage{listings}
+\lstset{
+ basicstyle=\footnotesize\ttfamily,
+numbers=left,
+numberstyle=\tiny,
+tabsize=2,
+breaklines=true,
+xleftmargin=2em,
+frame=single,
+framexleftmargin=1.5em
+}
+%usage: \lstinputlisting[caption=キャプション,label=ラベル]{ファイルパス}
+\usepackage{courier}
+\usepackage{caption}
+\begin{document}
+
+\end{document}

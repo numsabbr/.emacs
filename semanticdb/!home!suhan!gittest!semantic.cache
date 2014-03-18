@@ -1,0 +1,46 @@
+;; Object gittest/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "gittest/"
+  :tables (list 
+   (semanticdb-table "index.html"
+    :major-mode 'html-mode
+    :tags 
+        '( ("Numsabbr.github.comヒャッハー" section nil nil [467 581])
+            ("Numsabbr.github.comヒャッハー" section nil nil [581 653])
+            ("Numsabbr.github.comヒャッハー" section nil nil [653 813])
+            ("Numsabbr.github.com" section (:members 
+              ( ("Numsabbr.github.com" section (:members 
+                  ( ("Download" anchor nil nil [1083 1086])
+                    ("Download" anchor nil nil [1220 1223])
+                    ("View Numsabbr.github.com on GitHub" anchor nil nil [1357 1360])
+                    ("Welcome to GitHub Pages." section nil nil [1606 2260])
+                    ("Designer Templates" section nil nil [2260 2746])
+                    ("Rather Drive Stick?" section nil nil [2746 3387])
+                    ("Authors and Contributors" section (:members 
+                      ( ("@mention" anchor nil nil [3563 3566])
+                        ("@defunkt" anchor nil nil [3821 3824])
+                        ("@pjhyett" anchor nil nil [3904 3907])
+                        ("@mojombo" anchor nil nil [4001 4004]))                      ) nil [3387 4094])
+                    ("Support or Contact" section (:members 
+                      ( ("http://help.github.com/pages" anchor nil nil [4302 4305])
+                        ("support@github.com" anchor nil nil [4385 4388])
+                        ("numsabbr" anchor nil nil [4571 4574])
+                        ("numsabbr" anchor nil nil [4813 4816])
+                        ("Numsabbr.github.com" anchor nil nil [4874 4877])
+                        ("GitHub Pages" anchor nil nil [5042 5045])
+                        ("Jon Rohan" anchor nil nil [5108 5111])
+                        ("Scroll to top" anchor nil nil [5242 5245])
+                        ("tar" anchor nil nil [5279 5282])
+                        ("zip" anchor nil nil [5371 5374])
+                        ("source code" anchor nil nil [5463 5466]))                      ) nil [4094 5557]))                  ) nil [864 5557]))              ) nil [813 5557]))          
+    :file "index.html"
+    :pointmax 5557
+    :fsize 5568
+    :lastmodtime '(21282 47503 531397 807000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!suhan!gittest!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )
