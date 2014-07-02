@@ -1,0 +1,30 @@
+;; Object coding/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "coding/"
+  :tables (list 
+     (semanticdb-table "12071c.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 18])
+            ("vector" include (:system-flag t) nil [19 36])
+            ("algorithm" include (:system-flag t) nil [37 57])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [58 78])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [88 93]))                  
+                :type "int")
+                nil [79 622]))          
+    :file "12071c.cpp"
+    :pointmax 623
+    :fsize 486
+    :lastmodtime '(21400 25148 558791 522000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!suhan!coding!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

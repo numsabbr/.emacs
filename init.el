@@ -31,7 +31,7 @@
 (load-file "~/.emacs.d/hs-hidemode.el")
 (load-file "~/.emacs.d/packageset.el")
 (load-file "~/.emacs.d/rename.el")
-
+(load-file "~/.emacs.d/python.el")
 
 
 ;;from there it is custom settings by customize emacs

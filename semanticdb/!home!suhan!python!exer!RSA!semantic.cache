@@ -1,0 +1,42 @@
+;; Object RSA/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "RSA/"
+  :tables (list 
+    (semanticdb-table "make_prime.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"
+suhan lee,saitama university.
+\"\"\"" code nil nil [18 55])
+            ("math" include nil nil [56 67])
+            ("random" include nil nil [69 82])
+            ("prime_list" variable nil nil [124 137])
+            ("try" code nil nil [138 403])
+            ("extend_prime" function
+               (:documentation "extend the prime list from prime_max to in"
+                :arguments 
+                  ( ("ins" variable nil (reparse-symbol function_parameters) [421 424]))                  )
+                nil [404 668])
+            ("rand_prime" function (:arguments 
+              ( ("max" variable nil (reparse-symbol function_parameters) [696 699]))              ) nil [681 907])
+            ("_prime_test" function
+               (:documentation "
+    return True if in is prime number
+    "
+                :arguments 
+                  ( ("ins" variable nil (reparse-symbol function_parameters) [924 927]))                  )
+                nil [908 1121])
+            ("factorize" function (:arguments 
+              ( ("ins" variable nil (reparse-symbol function_parameters) [1136 1139]))              ) nil [1122 1363])
+            ("if" code nil nil [1364 1784]))          
+    :file "make_prime.py"
+    :pointmax 1784
+    :fsize 1783
+    :lastmodtime '(21289 8823 539092 414000)
+    :unmatched-syntax 'nil
+    )
+    )
+  :file "!home!suhan!python!exer!RSA!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

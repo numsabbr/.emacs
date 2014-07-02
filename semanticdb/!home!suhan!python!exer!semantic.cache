@@ -335,16 +335,312 @@ suhan lee,saitama university.
     :lastmodtime '(21287 58141 249459 539000)
     :unmatched-syntax 'nil
     )
-   (semanticdb-table "ras.py"
+   (semanticdb-table "ex11_9.py"
     :major-mode 'python-mode
     :tags 
         '( ("\"\"\"
 suhan lee,saitama university.
-\"\"\"" code nil nil [18 55]))          
-    :file "ras.py"
-    :pointmax 95
-    :fsize 94
-    :lastmodtime '(21288 6544 137976 878000)
+\"\"\"" code nil nil [18 55])
+            ("has_duplicates" function (:arguments 
+              ( ("lists" variable nil (reparse-symbol function_parameters) [75 80]))              ) nil [56 286])
+            ("if" code nil nil [287 413]))          
+    :file "ex11_9.py"
+    :pointmax 413
+    :fsize 412
+    :lastmodtime '(21290 18415 38962 248000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ex11_10.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"
+suhan lee,saitama university.
+\"\"\"" code nil nil [18 55])
+            ("reverse_word" function (:arguments 
+              ( ("word" variable nil (reparse-symbol function_parameters) [73 77]))              ) nil [56 142])
+            ("rotate_pairs" function (:arguments 
+              ( ("wordlist" variable nil (reparse-symbol function_parameters) [159 167]))              ) nil [142 398])
+            ("if" code nil nil [399 460]))          
+    :file "ex11_10.py"
+    :pointmax 477
+    :fsize 459
+    :lastmodtime '(21290 20845 302997 608000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ex11_11.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"
+suhan lee,saitama university.
+\"\"\"" code nil nil [18 55])
+            ("pronounce" include nil nil [56 72])
+            ("if" code nil nil [77 499]))          
+    :file "ex11_11.py"
+    :pointmax 496
+    :fsize 498
+    :lastmodtime '(21290 25864 967070 644000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "pronounce.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"This module contains code from
+Think Python by Allen B. Downey
+http://thinkpython.com
+
+Copyright 2012 Allen B. Downey
+License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
+
+\"\"\"" code nil nil [1 182])
+            ("read_dictionary" function
+               (:documentation "Reads from a file and builds a dictionary that maps from
+    each word to a string that describes its primary pronunciation.
+
+    Secondary pronunciations are added to the dictionary with
+    a number, in parentheses, at the end of the key, so the
+    key for the second pronunciation of \"abdominal\" is \"abdominal(2)\".
+
+    filename: string
+    returns: map from string to pronunciation
+    "
+                :arguments 
+                  ( ("filename" variable nil (reparse-symbol function_parameters) [204 212]))                  )
+                nil [184 877])
+            ("if" code nil nil [879 978]))          
+    :file "pronounce.py"
+    :pointmax 978
+    :fsize 977
+    :lastmodtime '(21290 22758 503025 445000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ex12_2.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"
+suhan lee,saitama university.
+\"\"\"" code nil nil [18 55])
+            ("sort_by_length" function (:arguments 
+              ( ("words" variable nil (reparse-symbol function_parameters) [75 80]))              ) nil [56 274])
+            ("if" code nil nil [277 386]))          
+    :file "ex12_2.py"
+    :pointmax 386
+    :fsize 385
+    :lastmodtime '(21296 58851 448576 405000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ex12_5.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"
+suhan lee,saitama university.
+\"\"\"" code nil nil [18 55])
+            ("transone" function (:arguments 
+              ( ("word" variable nil (reparse-symbol function_parameters) [69 73]))              ) nil [56 365])
+            ("transtest" function (:arguments 
+              ( ("worda" variable nil (reparse-symbol function_parameters) [379 384])
+                ("wordb" variable nil (reparse-symbol function_parameters) [385 390]))              ) nil [365 636])
+            ("transtest2" function (:arguments 
+              ( ("worda" variable nil (reparse-symbol function_parameters) [651 656])
+                ("wordb" variable nil (reparse-symbol function_parameters) [657 662]))              ) nil [636 880])
+            ("metathesis" function (:arguments 
+              ( ("words" variable nil (reparse-symbol function_parameters) [895 900]))              ) nil [880 1236])
+            ("metathesis2" function (:arguments 
+              ( ("words" variable nil (reparse-symbol function_parameters) [1252 1257]))              ) nil [1236 1503])
+            ("metathesis3" function (:arguments 
+              ( ("words" variable nil (reparse-symbol function_parameters) [1519 1524]))              ) nil [1503 1741])
+            ("if" code nil nil [1741 1886]))          
+    :file "ex12_5.py"
+    :pointmax 1886
+    :fsize 1885
+    :lastmodtime '(21296 64383 168656 890000)
+    :unmatched-syntax '((IF 1637 . 1639) (NEWLINE 1659 . 1660) (IF 1637 . 1639) (NEWLINE 1659 . 1660) (IF 1637 . 1639) (NEWLINE 1655 . 1656) (IF 1637 . 1639) (NEWLINE 1655 . 1656))
+    )
+   (semanticdb-table "ex12_5old.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"
+suhan lee,saitama university.
+\"\"\"" code nil nil [18 55])
+            ("transone" function (:arguments 
+              ( ("word" variable nil (reparse-symbol function_parameters) [69 73]))              ) nil [56 365])
+            ("transtest" function (:arguments 
+              ( ("worda" variable nil (reparse-symbol function_parameters) [379 384])
+                ("wordb" variable nil (reparse-symbol function_parameters) [385 390]))              ) nil [365 636])
+            ("metathesis" function (:arguments 
+              ( ("words" variable nil (reparse-symbol function_parameters) [651 656]))              ) nil [636 992])
+            ("metathesis2" function (:arguments 
+              ( ("words" variable nil (reparse-symbol function_parameters) [1008 1013]))              ) nil [992 1260])
+            ("if" code nil nil [1260 1439]))          
+    :file "ex12_5old.py"
+    :pointmax 1439
+    :fsize 1438
+    :lastmodtime '(21296 64545 296659 249000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ex13_1.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"
+suhan lee,saitama university.
+\"\"\"" code nil nil [18 55])
+            ("string" include nil nil [56 69])
+            ("delpunc" function (:arguments 
+              ( ("stri" variable nil (reparse-symbol function_parameters) [82 86]))              ) nil [70 166])
+            ("ex1302" function (:arguments 
+              ( ("words" variable nil (reparse-symbol function_parameters) [177 182]))              ) nil [166 479])
+            ("total" function (:arguments 
+              ( ("wdict" variable nil (reparse-symbol function_parameters) [490 495]))              ) nil [480 576])
+            ("most_frequently" function (:arguments 
+              ( ("wdict" variable nil (reparse-symbol function_parameters) [597 602]))              ) nil [577 851])
+            ("wordcheck" function (:arguments 
+              ( ("wordlist" variable nil (reparse-symbol function_parameters) [865 873])
+                ("wdict" variable nil (reparse-symbol function_parameters) [874 879]))              ) nil [851 996])
+            ("if" code nil nil [996 1362]))          
+    :file "ex13_1.py"
+    :pointmax 1362
+    :fsize 371
+    :lastmodtime '(21297 3397 636723 99000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "markov.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"
+suhan lee,saitama university.
+\"\"\"" code nil nil [2 39])
+            ("string" include nil nil [40 53])
+            ("random" include nil nil [55 68])
+            ("markov_write" function
+               (:documentation "
+    append the pair pre,back to mdict.
+    mdict is a dictionary of markov analysis.
+    pre is word in front of word back.
+    "
+                :arguments 
+                  ( ("mdict" variable nil (reparse-symbol function_parameters) [86 91])
+                    ("pre" variable nil (reparse-symbol function_parameters) [92 95])
+                    ("back" variable nil (reparse-symbol function_parameters) [96 100]))                  )
+                nil [69 633])
+            ("prev" variable nil nil [636 643])
+            ("markov_analysis" function (:arguments 
+              ( ("mdict" variable nil (reparse-symbol function_parameters) [665 670])
+                ("stri" variable nil (reparse-symbol function_parameters) [671 675]))              ) nil [645 1227])
+            ("markov_file" function (:arguments 
+              ( ("mdict" variable nil (reparse-symbol function_parameters) [1243 1248])
+                ("text" variable nil (reparse-symbol function_parameters) [1249 1253]))              ) nil [1227 1423])
+            ("random_text" function
+               (:documentation "Generates random wordsfrom the analyzed text.
+
+    Starts with a random prefix from the dictionary.
+
+    n: number of words to generate
+    "
+                :arguments 
+                  ( ("mdict" variable nil (reparse-symbol function_parameters) [1439 1444])
+                    ("n" variable nil (reparse-symbol function_parameters) [1445 1446]))                  )
+                nil [1423 2093])
+            ("if" code nil nil [2096 2200]))          
+    :file "markov.py"
+    :pointmax 2214
+    :fsize 2216
+    :lastmodtime '(21301 7989 791351 196000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "make_word.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"
+suhan lee,saitama university.
+\"\"\"" code nil nil [18 55])
+            ("make_word_list" function (:documentation "Reads lines from a file and builds a list using append.") nil [58 294]))          
+    :file "make_word.py"
+    :pointmax 321
+    :fsize 320
+    :lastmodtime '(21286 47723 37708 50000)
+    :unmatched-syntax 'nil
+    )
+    (semanticdb-table "markov2.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"This module contains code from
+Think Python by Allen B. Downey
+http://thinkpython.com
+
+Copyright 2012 Allen B. Downey
+License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
+
+\"\"\"" code nil nil [1 182])
+            ("sys" include nil nil [184 194])
+            ("string" include nil nil [195 208])
+            ("random" include nil nil [209 222])
+            ("suffix_map" variable nil nil [243 258])
+            ("prefix" variable nil nil [308 319])
+            ("process_file" function
+               (:documentation "Reads a file and performs Markov analysis.
+
+    filename: string
+    order: integer number of words in the prefix
+
+    Returns: map from prefix to list of possible suffixes.
+    "
+                :arguments 
+                  ( ("filename" variable nil (reparse-symbol function_parameters) [375 383])
+                    ("order" variable nil (reparse-symbol function_parameters) [385 390]))                  )
+                nil [358 740])
+            ("skip_gutenberg_header" function
+               (:documentation "Reads from fp until it finds the line that ends the header.
+
+    fp: open file object
+    "
+                :arguments 
+                  ( ("fp" variable nil (reparse-symbol function_parameters) [768 770]))                  )
+                nil [742 965])
+            ("process_word" function
+               (:documentation "Processes each word.
+
+    word: string
+    order: integer
+
+    During the first few iterations, all we do is store up the words; 
+    after that we start adding entries to the dictionary.
+    "
+                :arguments 
+                  ( ("word" variable nil (reparse-symbol function_parameters) [984 988])
+                    ("order" variable nil (reparse-symbol function_parameters) [990 995]))                  )
+                nil [967 1488])
+            ("random_text" function
+               (:documentation "Generates random wordsfrom the analyzed text.
+
+    Starts with a random prefix from the dictionary.
+
+    n: number of words to generate
+    "
+                :arguments 
+                  ( ("n" variable nil (reparse-symbol function_parameters) [1506 1507]))                  )
+                nil [1490 2169])
+            ("shift" function
+               (:documentation "Forms a new tuple by removing the head and adding word to the tail.
+
+    t: tuple of strings
+    word: string
+
+    Returns: tuple of strings
+    "
+                :arguments 
+                  ( ("t" variable nil (reparse-symbol function_parameters) [2181 2182])
+                    ("word" variable nil (reparse-symbol function_parameters) [2184 2188]))                  )
+                nil [2171 2374])
+            ("main" function (:arguments 
+              ( ("name" variable nil (reparse-symbol function_parameters) [2385 2389])
+                ("filename" variable nil (reparse-symbol function_parameters) [2391 2399])
+                ("n" variable nil (reparse-symbol function_parameters) [2404 2405])
+                ("order" variable nil (reparse-symbol function_parameters) [2411 2416])
+                ("args" variable nil (reparse-symbol function_parameters) [2420 2425]))              ) nil [2376 2642])
+            ("if" code nil nil [2644 2712]))          
+    :file "markov2.py"
+    :pointmax 2713
+    :fsize 2712
+    :lastmodtime '(21301 8281 51362 6000)
     :unmatched-syntax 'nil
     )
    )

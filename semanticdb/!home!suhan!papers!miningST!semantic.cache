@@ -1,0 +1,42 @@
+;; Object miningST/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "miningST/"
+  :tables (list 
+   (semanticdb-table "STMining.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"
+suhan lee,saitama university.
+\"\"\"" code nil nil [20 57])
+            ("helpstring" variable nil nil [59 90])
+            ("if" code nil nil [93 601]))          
+    :file "STMining.py"
+    :pointmax 904
+    :fsize 903
+    :lastmodtime '(21407 58480 692296 615000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "readtag.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"
+suhan lee,saitama university.
+\"\"\"" code nil nil [18 55]))          
+    :file "readtag.py"
+    :pointmax 86
+    :fsize 85
+    :lastmodtime '(21406 59207 981018 112000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "treeex.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "treeex.py"
+    :pointmax 1
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!suhan!papers!miningST!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

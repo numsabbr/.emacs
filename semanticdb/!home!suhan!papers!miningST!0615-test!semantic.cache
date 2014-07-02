@@ -1,0 +1,26 @@
+;; Object 0615-test/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "0615-test/"
+  :tables (list 
+   (semanticdb-table "miningst.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"
+suhan lee,saitama university.
+\"\"\"" code nil nil [18 55])
+            ("a" variable nil nil [56 60])
+            ("readpy" function nil nil [62 89])
+            ("a" variable nil nil [90 97])
+            ("b" variable nil nil [98 105])
+            ("a" code nil nil [106 111]))          
+    :file "miningst.py"
+    :pointmax 148
+    :fsize 147
+    :lastmodtime '(21406 59216 757018 438000)
+    :unmatched-syntax '(($EOI 148 . 148))
+    )
+    )
+  :file "!home!suhan!papers!miningST!0615-test!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

@@ -1,0 +1,142 @@
+;; Object crp/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "crp/"
+  :tables (list 
+   (semanticdb-table "s-html.html"
+    :major-mode 'html-mode
+    :tags 
+        '( ("./crp/s-html.html" section nil nil [88 499])
+            ("&#160;" section nil nil [499 1972])
+            ("./crp/s-html.html" section nil nil [1972 2383])
+            ("&#160;" section nil nil [2383 3936])
+            ("./crp/s-html.html" section nil nil [3936 4698])
+            ("&#160;" section nil nil [4698 11605])
+            ("./crp/s-html.html" section nil nil [11605 12201])
+            ("&#160;" section nil nil [12201 19304])
+            ("./crp/s-html.html" section nil nil [19304 19788])
+            ("&#160;" section nil nil [19788 29479])
+            ("./crp/s-html.html" section nil nil [29479 29963])
+            ("&#160;" section nil nil [29963 40273])
+            ("./crp/s-html.html" section nil nil [40273 40701])
+            ("&#160;" section nil nil [40701 49836])
+            ("./crp/s-html.html" section nil nil [49836 50247])
+            ("&#160;" section nil nil [50247 70707])
+            ("./crp/s-html.html" section nil nil [70707 71118])
+            ("&#160;" section nil nil [71118 89513])
+            ("./crp/s-html.html" section nil nil [89513 90116])
+            ("&#160;" section nil nil [90116 98346])
+            ("./crp/s-html.html" section nil nil [98346 98778])
+            ("&#160;" section nil nil [98778 106833])
+            ("./crp/s-html.html" section nil nil [106833 107322])
+            ("&#160;" section nil nil [107322 115446])
+            ("./crp/s-html.html" section nil nil [115446 115878])
+            ("&#160;" section nil nil [115878 122705])
+            ("./crp/s-html.html" section nil nil [122705 123137])
+            ("&#160;" section nil nil [123137 129617])
+            ("./crp/s-html.html" section nil nil [129617 129992])
+            ("&#160;" section nil nil [129992 139722])
+            ("./crp/s-html.html" section nil nil [139722 140268])
+            ("&#160;" section nil nil [140268 143212])
+            ("./crp/s-html.html" section nil nil [143212 143701])
+            ("&#160;" section nil nil [143701 148474])
+            ("./crp/s-html.html" section nil nil [148474 148963])
+            ("&#160;" section nil nil [148963 153402])
+            ("./crp/s-html.html" section nil nil [153402 153777])
+            ("&#160;" section nil nil [153777 159390])
+            ("./crp/s-html.html" section nil nil [159390 159822])
+            ("&#160;" section nil nil [159822 163061])
+            ("./crp/s-html.html" section nil nil [163061 163607])
+            ("&#160;" section nil nil [163607 170954])
+            ("./crp/s-html.html" section nil nil [170954 171386])
+            ("&#160;" section nil nil [171386 178872])
+            ("./crp/s-html.html" section nil nil [178872 179173])
+            ("&#160;" section nil nil [179173 180320])
+            ("./crp/s-html.html" section nil nil [180320 180809])
+            ("&#160;" section nil nil [180809 187796])
+            ("./crp/s-html.html" section nil nil [187796 188285])
+            ("&#160;" section nil nil [188285 195831])
+            ("./crp/s-html.html" section nil nil [195831 196263])
+            ("&#160;" section nil nil [196263 200149])
+            ("./crp/s-html.html" section nil nil [200149 201245])
+            ("&#160;" section nil nil [201245 245576])
+            ("./crp/s-html.html" section nil nil [245576 246008])
+            ("&#160;" section nil nil [246008 253514])
+            ("./crp/s-html.html" section nil nil [253514 253946])
+            ("&#160;" section nil nil [253946 261447])
+            ("./crp/s-html.html" section nil nil [261447 261879])
+            ("&#160;" section nil nil [261879 269412])
+            ("./crp/s-html.html" section nil nil [269412 269844])
+            ("&#160;" section nil nil [269844 275308])
+            ("./crp/s-html.html" section nil nil [275308 276155])
+            ("&#160;" section nil nil [276155 284257])
+            ("./crp/s-html.html" section nil nil [284257 284820])
+            ("&#160;" section nil nil [284820 292838])
+            ("./crp/s-html.html" section nil nil [292838 293327])
+            ("&#160;" section nil nil [293327 301132])
+            ("./crp/s-html.html" section nil nil [301132 301638])
+            ("&#160;" section nil nil [301638 306061])
+            ("./crp/s-html.html" section nil nil [306061 306738])
+            ("&#160;" section nil nil [306738 313825])
+            ("./crp/s-html.html" section nil nil [313825 314405])
+            ("&#160;" section nil nil [314405 322096])
+            ("./crp/s-html.html" section nil nil [322096 322733])
+            ("&#160;" section nil nil [322733 329749])
+            ("./crp/s-html.html" section nil nil [329749 330255])
+            ("&#160;" section nil nil [330255 338050])
+            ("./crp/s-html.html" section nil nil [338050 338613])
+            ("&#160;" section nil nil [338613 346541])
+            ("./crp/s-html.html" section nil nil [346541 347178])
+            ("&#160;" section nil nil [347178 354403])
+            ("./crp/s-html.html" section nil nil [354403 355114])
+            ("&#160;" section nil nil [355114 362401])
+            ("./crp/s-html.html" section nil nil [362401 363038])
+            ("&#160;" section nil nil [363038 370291])
+            ("./crp/s-html.html" section nil nil [370291 370871])
+            ("&#160;" section nil nil [370871 377504])
+            ("./crp/s-html.html" section nil nil [377504 378067])
+            ("&#160;" section nil nil [378067 380983])
+            ("./crp/s-html.html" section nil nil [380983 381586])
+            ("&#160;" section nil nil [381586 388346])
+            ("./crp/s-html.html" section nil nil [388346 389499])
+            ("&#160;" section nil nil [389499 440785])
+            ("./crp/s-html.html" section nil nil [440785 441217])
+            ("&#160;" section nil nil [441217 448714])
+            ("./crp/s-html.html" section nil nil [448714 449317])
+            ("&#160;" section nil nil [449317 458229])
+            ("./crp/s-html.html" section nil nil [458229 458775])
+            ("&#160;" section nil nil [458775 468702])
+            ("./crp/s-html.html" section nil nil [468702 469912])
+            ("&#160;" section nil nil [469912 512144])
+            ("./crp/s-html.html" section nil nil [512144 512633])
+            ("&#160;" section nil nil [512633 522274])
+            ("./crp/s-html.html" section nil nil [522274 522763])
+            ("&#160;" section nil nil [522763 529813]))          
+    :file "s-html.html"
+    :pointmax 529813
+    :fsize 530128
+    :lastmodtime '(21407 59601 144338 200000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "testhtml.html"
+    :major-mode 'html-mode
+    :tags nil
+    :file "testhtml.html"
+    :pointmax 1321
+    :fsize 1320
+    :lastmodtime '(21407 60155 592358 778000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ss.html"
+    :major-mode 'html-mode
+    :tags nil
+    :file "ss.html"
+    :pointmax 634
+    :fsize 633
+    :lastmodtime '(21407 59606 512338 399000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!suhan!papers!miningST!0615-test!crp!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )
