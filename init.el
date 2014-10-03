@@ -4,10 +4,13 @@
 ;;thanks to http://stackoverflow.com/questions/294664/how-to-set-the-font-size-in-emacs
 (set-face-attribute 'default (selected-frame) :height 80)
 (setq ansi-term-program "/bin/bash")
-(require 'package)
-(add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/") t)
-(package-initialize)
+(when (>= emacs-major-version 24)
+  (require 'package)
+  (add-to-list 'package-archives
+	       '("melpa" . "http://melpa.milkbox.net/packages/") t)
+  (package-initialize)
+  (load-file "~/.emacs.d/packageset.el")
+)
 (setq url-http-attempt-keepalives nil)
 
 
@@ -29,7 +32,6 @@
 (load-file "~/.emacs.d/autoinsert/mytemplate.el")
 (load-file "~/.emacs.d/flymakeset.el")
 (load-file "~/.emacs.d/hs-hidemode.el")
-(load-file "~/.emacs.d/packageset.el")
 (load-file "~/.emacs.d/rename.el")
 (load-file "~/.emacs.d/python.el")
 

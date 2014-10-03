@@ -1,5 +1,6 @@
 
 (global-set-key "\C-z" 'undo)
+(global-set-key (kbd "C-/") 'suspend-emacs)
 (global-set-key [C-/] 'iconify-or-deiconify-frame)
 (global-unset-key (kbd "C-x C-b") )
 (global-set-key (kbd "C-x C-b") 'ibuffer)
