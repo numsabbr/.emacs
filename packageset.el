@@ -12,10 +12,18 @@
 
 ;;auto-complete-clang
 (require 'auto-complete-clang)
+(require 'highlight-indentation)
+
 (global-auto-complete-mode t)
+
 
 (global-ede-mode t)
 
+(define-globalized-minor-mode global-highlight-indentation-mode
+  highlight-indentation-mode
+  (lambda ()
+    (highlight-indentation-mode t)))
+(global-highlight-indentation-mode t)
 
 
 

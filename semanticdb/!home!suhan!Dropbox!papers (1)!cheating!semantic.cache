@@ -1,0 +1,187 @@
+;; Object cheating/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "cheating/"
+  :tables (list 
+   (semanticdb-table "buntaipan.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"
+copyright:suhan lee,saitama university.
+\"\"\"" code nil nil [43 90])
+            ("os" include nil nil [94 103])
+            ("sys" include nil nil [104 114])
+            ("getopt" include nil nil [115 128])
+            ("try" code nil nil [129 248])
+            ("helptext" code nil nil [248 875])
+            ("buntaipan" type
+               (:members 
+                  ( ("pflag" variable nil (reparse-symbol indented_block_body) [899 909])
+                    ("meisi" variable nil (reparse-symbol indented_block_body) [915 922])
+                    ("dousi" variable nil (reparse-symbol indented_block_body) [928 935])
+                    ("josi" variable nil (reparse-symbol indented_block_body) [941 947])
+                    ("keiyousi" variable nil (reparse-symbol indented_block_body) [953 963])
+                    ("hukusi" variable nil (reparse-symbol indented_block_body) [969 977])
+                    ("setuzoku" variable nil (reparse-symbol indented_block_body) [983 993])
+                    ("jodou" variable nil (reparse-symbol indented_block_body) [999 1006])
+                    ("rentai" variable nil (reparse-symbol indented_block_body) [1012 1020])
+                    ("kandou" variable nil (reparse-symbol indented_block_body) [1026 1034])
+                    ("wild" variable nil (reparse-symbol indented_block_body) [1040 1046])
+                    ("kigou" variable nil (reparse-symbol indented_block_body) [1052 1059])
+                    ("resultstr" variable nil (reparse-symbol indented_block_body) [1065 1077])
+                    ("meisistr" variable nil (reparse-symbol indented_block_body) [1082 1097])
+                    ("resultlen" variable nil (reparse-symbol indented_block_body) [1102 1113])
+                    ("mining" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1158 1162])
+                            ("filename" variable nil (reparse-symbol function_parameters) [1163 1171]))                          )
+                        (reparse-symbol indented_block_body) [1147 1287])
+                    ("writingstyle" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1308 1312])
+                            ("filename" variable nil (reparse-symbol function_parameters) [1313 1321]))                          )
+                        (reparse-symbol indented_block_body) [1291 1950])
+                    ("datanuki" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1967 1971])
+                            ("ex" variable nil (reparse-symbol function_parameters) [1972 1974]))                          )
+                        (reparse-symbol indented_block_body) [1954 4071]))                  
+                :type "class")
+                nil [876 4071])
+            ("if" code nil nil [4074 4558]))          
+    :file "buntaipan.py"
+    :pointmax 4563
+    :fsize 4842
+    :lastmodtime '(21548 58768 415787 8000)
+    :unmatched-syntax '(($EOI 4563 . 4563))
+    )
+   (semanticdb-table "outbun.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"
+copyright:suhan lee,saitama university.
+\"\"\"" code nil nil [43 90])
+            ("os" include nil nil [94 103])
+            ("sys" include nil nil [104 114])
+            ("getopt" include nil nil [115 128])
+            ("try" code nil nil [129 247])
+            ("helptext" code nil nil [247 875])
+            ("buntaipan" type
+               (:members 
+                  ( ("pflag" variable nil (reparse-symbol indented_block_body) [899 909])
+                    ("meisi" variable nil (reparse-symbol indented_block_body) [915 922])
+                    ("dousi" variable nil (reparse-symbol indented_block_body) [928 935])
+                    ("josi" variable nil (reparse-symbol indented_block_body) [941 947])
+                    ("keiyousi" variable nil (reparse-symbol indented_block_body) [953 963])
+                    ("hukusi" variable nil (reparse-symbol indented_block_body) [969 977])
+                    ("setuzoku" variable nil (reparse-symbol indented_block_body) [983 993])
+                    ("jodou" variable nil (reparse-symbol indented_block_body) [999 1006])
+                    ("rentai" variable nil (reparse-symbol indented_block_body) [1012 1020])
+                    ("kandou" variable nil (reparse-symbol indented_block_body) [1026 1034])
+                    ("wild" variable nil (reparse-symbol indented_block_body) [1040 1046])
+                    ("kigou" variable nil (reparse-symbol indented_block_body) [1052 1059])
+                    ("resultstr" variable nil (reparse-symbol indented_block_body) [1065 1077])
+                    ("meisistr" variable nil (reparse-symbol indented_block_body) [1082 1097])
+                    ("resultlen" variable nil (reparse-symbol indented_block_body) [1102 1113])
+                    ("mining" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1158 1162])
+                            ("filename" variable nil (reparse-symbol function_parameters) [1163 1171]))                          )
+                        (reparse-symbol indented_block_body) [1147 1287])
+                    ("writingstyle" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1308 1312])
+                            ("filename" variable nil (reparse-symbol function_parameters) [1313 1321]))                          )
+                        (reparse-symbol indented_block_body) [1291 1950])
+                    ("datanuki" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1967 1971])
+                            ("ex" variable nil (reparse-symbol function_parameters) [1972 1974]))                          )
+                        (reparse-symbol indented_block_body) [1954 4351]))                  
+                :type "class")
+                nil [876 4351])
+            ("if" code nil nil [4354 4838]))          
+    :file "outbun.py"
+    :pointmax 4843
+    :fsize 4842
+    :lastmodtime '(21548 49558 843802 614000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "out.py~"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"
+copyright:suhan lee,saitama university.
+\"\"\"" code nil nil [43 90])
+            ("os" include nil nil [94 103])
+            ("sys" include nil nil [104 114])
+            ("getopt" include nil nil [115 128])
+            ("try" code nil nil [129 247])
+            ("helptext" code nil nil [247 875])
+            ("buntaipan" type
+               (:members 
+                  ( ("pflag" variable nil (reparse-symbol indented_block_body) [899 909])
+                    ("meisi" variable nil (reparse-symbol indented_block_body) [915 922])
+                    ("dousi" variable nil (reparse-symbol indented_block_body) [928 935])
+                    ("josi" variable nil (reparse-symbol indented_block_body) [941 947])
+                    ("keiyousi" variable nil (reparse-symbol indented_block_body) [953 963])
+                    ("hukusi" variable nil (reparse-symbol indented_block_body) [969 977])
+                    ("setuzoku" variable nil (reparse-symbol indented_block_body) [983 993])
+                    ("jodou" variable nil (reparse-symbol indented_block_body) [999 1006])
+                    ("rentai" variable nil (reparse-symbol indented_block_body) [1012 1020])
+                    ("kandou" variable nil (reparse-symbol indented_block_body) [1026 1034])
+                    ("wild" variable nil (reparse-symbol indented_block_body) [1040 1046])
+                    ("kigou" variable nil (reparse-symbol indented_block_body) [1052 1059])
+                    ("resultstr" variable nil (reparse-symbol indented_block_body) [1065 1077])
+                    ("meisistr" variable nil (reparse-symbol indented_block_body) [1082 1097])
+                    ("resultlen" variable nil (reparse-symbol indented_block_body) [1102 1113])
+                    ("mining" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1158 1162])
+                            ("filename" variable nil (reparse-symbol function_parameters) [1163 1171]))                          )
+                        (reparse-symbol indented_block_body) [1147 1287])
+                    ("writingstyle" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1308 1312])
+                            ("filename" variable nil (reparse-symbol function_parameters) [1313 1321]))                          )
+                        (reparse-symbol indented_block_body) [1291 1950])
+                    ("datanuki" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1999 2003])
+                            ("ex" variable nil (reparse-symbol function_parameters) [2004 2006]))                          )
+                        (reparse-symbol indented_block_body) [1986 4383]))                  
+                :type "class")
+                nil [876 4383])
+            ("if" code nil nil [4386 4870]))          
+    :file "out.py~"
+    :pointmax 4875
+    :fsize 4874
+    :lastmodtime '(21548 49731 795809 784000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ex01.py~"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"
+suhan lee,saitama university.
+\"\"\"" code nil nil [34 71])
+            ("if" code nil nil [76 530]))          
+    :file "ex01.py~"
+    :pointmax 530
+    :fsize 551
+    :lastmodtime '(21536 56326 91958 120000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!suhan!Dropbox!papers (1)!cheating!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

@@ -7,6 +7,8 @@
 ;;# pip install pyflakes
 (when (>= emacs-major-version 24)
   (require 'flymake-python-pyflakes)
+  ;;  (add-hook 'python-mode-hook 'flycheck-mode)
   (add-hook 'python-mode-hook 'flymake-python-pyflakes-load)
 )
+
 ;;(setq flymake-python-pyflakes-extra-arguments '("--ignore=W806"))

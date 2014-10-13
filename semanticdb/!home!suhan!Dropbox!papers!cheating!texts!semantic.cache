@@ -1,0 +1,28 @@
+;; Object texts/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "texts/"
+  :tables (list 
+   (semanticdb-table "bunri.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("\"\"\"
+separate 
+suhan lee,saitama university.
+\"\"\"" code nil nil [42 89])
+            ("sys" include nil nil [93 106])
+            ("os" include nil nil [93 106])
+            ("usage" function nil nil [107 145])
+            ("target" variable nil nil [145 162])
+            ("target2" variable nil nil [163 177])
+            ("if" code nil nil [178 1305]))          
+    :file "bunri.py"
+    :pointmax 1280
+    :fsize 1337
+    :lastmodtime '(21563 15028 852098 875000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!suhan!Dropbox!papers!cheating!texts!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

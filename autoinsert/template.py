@@ -1,6 +1,9 @@
 #/usr/bin/python
+# -*- coding: utf-8 -*-
+# coding:utf-8
+
 """
-suhan lee,saitama university.
+copyright:suhan lee,saitama university.
 """
 
 
